@@ -1,0 +1,702 @@
+<!doctype html>
+<html style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;height: auto;min-height: 100vh;box-sizing: border-box !important;">
+<head style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+	<meta charset="UTF-8" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+	<title style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">QCatUCI_landing_page</title>
+
+	<style type="text/css" styl-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;nt;">html,body{
+		height:100%;
+	}
+	p{
+		margin:10px 0;
+		padding:0;
+	}
+	h1,h2,h3,h4,h5,h6{
+		display:block;
+		margin:0;
+		padding:0;
+	}
+	img,a img{
+		border:0;
+		height:auto;
+		outline:none;
+		text-decoration:none;
+	}
+	body{
+		margin:0 !important;
+		padding:0 !important;
+		width:100%;
+		background-color:#f7f7f7;
+		background-position:center;
+		background-size:cover;
+	}
+	.mcnTextBlock:after,.mcnTextBlockInner:after{
+		display:table;
+		clear:both;
+	}
+	*{
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box !important;
+	}
+	html,body,.wrapper{
+		height:auto;
+		min-height:100vh;
+	}
+	body{
+		position:relative;
+		background-color:#f7f7f7;
+		background-position:center;
+		background-size:cover;
+	}
+	.wrapper{
+		display:flex;
+		flex-direction:column;
+	}
+	.templateSection{
+		display:flex;
+		flex-shrink:0;
+		justify-content:center;
+	}
+	.templateSection:last-of-type{
+		flex-grow:2;
+		min-height:1px;
+	}
+	.sectionFlexColumn{
+		align-items:center;
+		display:flex;
+		flex-direction:column;
+		width:100%;
+	}
+	a.mcnButton{
+		display:block;
+	}
+	.mcnImage{
+		vertical-align:bottom;
+	}
+	.mcnTextContent{
+		word-break:break-word;
+		flex-flow:column;
+	}
+	.mcnTextContent img{
+		max-width:100%;
+		height:auto !important;
+	}
+	.mcnDividerBlock{
+		table-layout:fixed !important;
+	}
+	.mcPrivacyBadge{
+		opacity:0.6;
+	}
+	.mcPrivacyBadge:hover{
+		opacity:1;
+	}
+	.mcPrivacyBadge a.privacyLink{
+		text-decoration:none;
+	}
+	.mcPrivacyBadge a.privacyLink:hover{
+		text-decoration:underline;
+	}
+	.mcnTemplatePageBanner{
+		position:absolute;
+		top:0;
+		left:0;
+		right:0;
+	}
+	.mcnPageBannerContainer{
+		position:relative;
+		display:flex;
+		justify-content:center;
+		padding:18px;
+	}
+	.mcnPageBannerContentContainer{
+		padding:0 24px 0 0;
+	}
+	.mcnCloseButton{
+		opacity:.4;
+		background:url(data:image/png;
+			base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAABGdBTUEAALGPC/xhBQAAAEVQTFRFAAAA////////////////////////////////////////////////////////AAAACwsLlpaWv7+/wMDAwcHB5+fn////js+8jgAAAA90Uk5TABkaT2lvcJi1ttny8/v+KMQKuwAAAJdJREFUKM91UuEawiAIRGdp6pZzi/d/1HDo11bd/RAFTk6QSGFdiDnH4CydYfzMHbM3H/+U+IQ0Df994QuWW8//8kvk4JjEP0itjtf962K86FQ9a6nN1LKqNktOE8uzbMybGOU4eii3imvfZal6DhR7vZastAOR8lAi6UIap4wD8KqAikO58IGwJbiJsO14UHi0+DP8+z5v3a8i3EEOD1IAAAAASUVORK5CYII=); position:absolute;
+		top:18px;
+		right:18px;
+		height:24px;
+		width:24px;
+	}
+	.mcnCloseButton:hover{
+		opacity:.9;
+	}
+	.sr-only{
+		position:absolute;
+		width:1px;
+		height:1px;
+		padding:0;
+		margin:-1px;
+		overflow:hidden;
+		clip:rect(0,0,0,0);
+		border:0;
+	}
+	.mcnPaymentTextContent{
+		min-width:284px;
+	}
+	body{
+		background-color:#f7f7f7;
+		background-image:none;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+	}
+	.templateSection{
+		padding-right:0px;
+		padding-left:0px;
+	}
+	.contentContainer{
+		max-width:780px;
+		width:100%;
+		flex:0 0 auto;
+	}
+	h1{
+		color:#222222;
+		font-family:Helvetica;
+		font-size:40px;
+		font-style:normal;
+		font-weight:bold;
+		line-height:150%;
+		letter-spacing:normal;
+		text-align:center;
+	}
+	h2{
+		color:#222222;
+		font-family:Helvetica;
+		font-size:34px;
+		font-style:normal;
+		font-weight:bold;
+		line-height:150%;
+		letter-spacing:normal;
+		text-align:left;
+	}
+	h3{
+		color:#444444;
+		font-family:Helvetica;
+		font-size:22px;
+		font-style:normal;
+		font-weight:bold;
+		line-height:150%;
+		letter-spacing:normal;
+		text-align:center;
+	}
+	h4{
+		color:#7b203e;
+		font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+		font-size:30px;
+		font-style:normal;
+		font-weight:bold;
+		line-height:125%;
+		letter-spacing:normal;
+		text-align:left;
+	}
+	.templateHeader{
+		background-color:#242637;
+		background-image:none;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+		border-top:0;
+		border-bottom:0;
+		padding-top:54px;
+		padding-bottom:0;
+	}
+	.headerContainer{
+		background-color:#242637;
+		background-image:none;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+		border-top:0;
+		border-bottom:0;
+		padding-top:36px;
+		padding-bottom:18px;
+		box-shadow:none;
+	}
+	.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+		color:#808080;
+		font-family:Helvetica;
+		font-size:16px;
+		line-height:150%;
+		text-align:left;
+	}
+	.headerContainer .mcnTextContent a,.headerContainer .mcnTextContent p a{
+		color:#00ADD8;
+		font-weight:normal;
+		text-decoration:underline;
+	}
+	.templateBody{
+		background-color:#242637;
+		background-image:none;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+		border-top:0;
+		border-bottom:0;
+		padding-top:0;
+		padding-bottom:117px;
+	}
+	.bodyContainer{
+		background-color:#242637;
+		background-image:none;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+		border-top:0;
+		border-bottom:0;
+		padding-top:0;
+		padding-bottom:45px;
+		box-shadow:none;
+	}
+	.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p,.mcnTemplatePageBanner{
+		color:#ffffff;
+		font-family:'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size:18px;
+		line-height:150%;
+		text-align:center;
+	}
+	.bodyContainer .mcnTextContent a,.bodyContainer .mcnTextContent p a,.mcnTemplatePageBanner a,.mcnTemplatePageBanner p a{
+		color:#00ADD8;
+		font-weight:normal;
+		text-decoration:underline;
+	}
+	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+		}	@media only screen and (max-width: 480px){
+			body{
+				width:100% !important;
+				min-width:100% !important;
+			}
+
+			}	@media only screen and (max-width: 480px){
+				.mcnCaptionBlockInner{
+					flex:0 0 auto;
+				}
+
+				}	@media only screen and (max-width: 480px){
+					.mcnCaptionBlock{
+						flex-direction:column;
+					}
+
+					}	@media only screen and (max-width: 480px){
+						.mcnVideoContainer{
+							width:100% !important;
+						}
+
+						}	@media only screen and (max-width: 480px){
+							.mcnRetinaImage{
+								max-width:100% !important;
+							}
+
+							}	@media only screen and (max-width: 480px){
+								.mcnTextBlockInner{
+									padding:9px 0 !important;
+								}
+
+								}	@media only screen and (max-width: 480px){
+									.mcnImageGroupContent{
+										padding:9px !important;
+									}
+
+									}	@media only screen and (max-width: 480px){
+										.mcnCaptionColumn{
+											flex-direction:column !important;
+										}
+
+										}	@media only screen and (max-width: 480px){
+											.mcnSignUpFormContentContainer{
+												flex:auto !important;
+												padding-right:0 !important;
+												padding-left:0 !important;
+											}
+
+											}	@media only screen and (max-width: 480px){
+												.mcnCaptionLeftContentInner,.mcnCaptionRightContentInner{
+													padding:0 9px 9px 9px !important;
+												}
+
+												}	@media only screen and (max-width: 480px){
+													.mcnImageCardRightContentInner .mcnImageCardImageContent,.mcnImageCardLeftContentInner .mcnImageCardImageContent{
+														padding:18px 18px 0 18px !important;
+													}
+
+													}	@media only screen and (max-width: 480px){
+														.mcnTextBlockInner,.mcnBoxedTextBlockInner,.mcnImageCardLeftContentInner,.mcnImageCardRightContentInner,.mcnCaptionLeftContentInner,.mcnCaptionRightContentInner{
+															flex-direction:column !important;
+														}
+
+														}	@media only screen and (max-width: 480px){
+															.mcnCaptionLeftContentInner .mcnTextContent,.mcnCaptionRightContentInner .mcnTextContent{
+																padding:9px 9px 0 9px !important;
+															}
+
+															}	@media only screen and (max-width: 480px){
+																.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+																	padding-top:18px !important;
+																}
+
+																}	@media only screen and (max-width: 480px){
+																	.mcnImageCardBottomImageContent{
+																		padding-bottom:9px !important;
+																	}
+
+																	}	@media only screen and (max-width: 480px){
+																		.mcnImageGroupBlockInner{
+																			padding-top:0 !important;
+																			padding-bottom:0 !important;
+																		}
+
+																		}	@media only screen and (max-width: 480px){
+																			.mcnImageGroupBlockOuter{
+																				padding-top:9px !important;
+																				padding-bottom:9px !important;
+																			}
+
+																			}	@media only screen and (max-width: 480px){
+																				.mcnTextContent,.mcnBoxedTextContentColumn{
+																					padding-right:18px !important;
+																					padding-left:18px !important;
+																				}
+
+																				}	@media only screen and (max-width: 480px){
+																					.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+																						padding-right:18px !important;
+																						padding-bottom:0 !important;
+																						padding-left:18px !important;
+																					}
+
+																					}	@media only screen and (max-width: 480px){
+																						.mcpreview-image-uploader{
+																							display:none !important;
+																							width:100% !important;
+																						}
+
+																						}	@media only screen and (max-width: 480px){
+																							.mcnRecContentContainer--row{
+																								flex:0 0 50% !important;
+																							}
+
+																							}	@media only screen and (max-width: 480px){
+																								.mcnRecContentContainer .mcnProductTitle,.mcnRecContentContainer .mcnButtonBlock,.mcnRecContentContainer .mcnProductPrice{
+																									padding-left:0 !important;
+																									padding-right:0 !important;
+																								}
+
+																								}	@media only screen and (max-width: 480px){
+																									.mcnPaymentProduct{
+																										flex-direction:column !important;
+																									}
+
+																									}	@media only screen and (max-width: 480px){
+																										.mcnPaymentTextContent{
+																											min-width:200px !important;
+																										}
+
+																										}	@media only screen and (max-width: 480px){
+																											.mcnPaymentGalleryImages div{
+																												width:100% !important;
+																												min-width:0 !important;
+																											}
+
+																											}	@media only screen and (max-width: 480px){
+																												.mcnGalleryImage:nth-last-child(2):first-child,.mcnGalleryImage:nth-last-child(2):first-child ~ .mcnGalleryImage{
+																													height:90px !important;
+																													min-width:55px !important;
+																													max-width:90px !important;
+																												}
+
+																												}	@media only screen and (max-width: 480px){
+																													.mcnGalleryImage:nth-last-child(3):first-child,.mcnGalleryImage:nth-last-child(3):first-child ~ .mcnGalleryImage{
+																														height:60px !important;
+																														min-width:55px !important;
+																														max-width:60px !important;
+																													}
+
+																													}	@media only screen and (max-width: 480px){
+																														.mcnGalleryImage:nth-last-child(4):first-child,.mcnGalleryImage:nth-last-child(4):first-child ~ .mcnGalleryImage{
+																															height:60px !important;
+																															min-width:35px !important;
+																														}
+
+																														}	@media only screen and (max-width: 480px){
+																															.mcnGalleryImage:nth-last-child(5):first-child,.mcnGalleryImage:nth-last-child(5):first-child ~ .mcnGalleryImage{
+																																height:50px !important;
+																																min-width:35px !important;
+																															}
+
+																															}	@media only screen and (max-width: 480px){
+																																.mcPrivacyBadge{
+																																	opacity:1;
+																																}
+
+																																}	@media only screen and (max-width: 480px){
+																																	h1{
+																																		font-size:30px !important;
+																																		line-height:125% !important;
+																																	}
+
+																																	}	@media only screen and (max-width: 480px){
+																																		h2{
+																																			font-size:26px !important;
+																																			line-height:125% !important;
+																																		}
+
+																																		}	@media only screen and (max-width: 480px){
+																																			h3{
+																																				font-size:20px !important;
+																																				line-height:150% !important;
+																																			}
+
+																																			}	@media only screen and (max-width: 480px){
+																																				h4{
+																																					font-size:18px !important;
+																																					line-height:150% !important;
+																																				}
+
+																																				}	@media only screen and (max-width: 480px){
+																																					.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
+																																						font-size:14px !important;
+																																						line-height:150% !important;
+																																					}
+
+																																					}	@media only screen and (max-width: 480px){
+																																						.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+																																							font-size:16px !important;
+																																							line-height:150% !important;
+																																						}
+
+																																						}	@media only screen and (max-width: 480px){
+																																							.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p,.mcnTemplatePageBanner{
+																																								font-size:16px !important;
+																																								line-height:150% !important;
+																																							}
+
+																																						}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet"><!--<![endif]--><link rel="stylesheet" type="text/css" href="https://eep.io/mc-release/1.1.184ec24688de97b0fbe489013a2b851affbbbcf38/css/signup-forms/pages/common.css"></head>
+																																						<body data-template-page-bg="" style="background:#f7f7f7 none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;height: auto;width: 100%;background-color: #f7f7f7;background-position: center;background-size: cover;position: relative;background-image: none;background-repeat: no-repeat;min-height: 100vh;box-sizing: border-box !important;margin: 0 !important;padding: 0 !important;">
+																																							<div class="wrapper" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;height: auto;min-height: 100vh;display: flex;flex-direction: column;box-sizing: border-box !important;">
+																																								<div class="templateSection templateHeader" style="background:#242637 none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: flex;flex-shrink: 0;justify-content: center;padding-right: 0px;padding-left: 0px;background-color: #242637;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 54px;padding-bottom: 0;box-sizing: border-box !important;">
+																																									<div class="headerContainer contentContainer" style="background:#242637 none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;max-width: 780px;width: 100%;flex: 0 0 auto;background-color: #242637;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 36px;padding-bottom: 18px;box-shadow: none;box-sizing: border-box !important;"><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																										<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																											<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																												<div class="mcnTextContent" style="padding-top: 0;padding-right: 9px;padding-bottom: 9px;padding-left: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #808080;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;box-sizing: border-box !important;">
+																																													<h1 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #222222;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;"><img data-file-id="803893" height="41" src="https://eep.io/mc-gallery/9fefbfdf86a0518a32ebcd209/images/7c6efff5-3c5e-47cc-8403-35fe9a1be0bc.png" style="border: 0px;width: 300px;height: 41px;margin: 0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;outline: none;text-decoration: none;max-width: 100%;box-sizing: border-box !important;" width="300"></h1>
+
+																																												</div>
+																																											</div>
+
+																																										</div>
+																																									</div></div>
+																																								</div>
+																																								<div class="templateSection templateBody" style="background:#242637 none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: flex;flex-shrink: 0;justify-content: center;padding-right: 0px;padding-left: 0px;background-color: #242637;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 117px;box-sizing: border-box !important;">
+																																									<div class="sectionFlexColumn" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;align-items: center;display: flex;flex-direction: column;width: 100%;box-sizing: border-box !important;">
+																																										<div class="bodyContainer contentContainer" style="background:#242637 none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;max-width: 780px;width: 100%;flex: 0 0 auto;background-color: #242637;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 45px;box-shadow: none;box-sizing: border-box !important;"><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																											<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																												<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																													<div class="mcnTextContent" style="padding: 0px 9px 9px;color: #FFFFFF;font-size: 16px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing: border-box !important;">
+																																														<h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #7b203e;font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;font-size: 30px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;box-sizing: border-box !important;"><span style="font-size: 30px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Hi Anteaters!</span></h4>
+
+																																														<p style="color: #FFFFFF;font-size: 16px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing: border-box !important;">Google's claim of&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">quantum supremacy</strong>&nbsp;made the headlines. Wait, but...&nbsp;<br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																															<br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																															Why did they use&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">cross-entropy</strong>&nbsp;as benchmarking? Why did they use&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">iSWAP</strong>&nbsp;gates instead of&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Controlled-Z</strong>&nbsp;gates? What happened to their broken qubit? What's IBM's claim against it? If you find those questions intriguing, you are at the right place. Welcome to Quantum Computing Club at UCI (QC@UCI)!</p>
+
+																																														</div>
+																																													</div>
+
+																																												</div>
+																																											</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																												<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																													<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																														<div class="mcnTextContent" style="padding: 0px 9px 9px;color: #FFFFFF;font-size: 16px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing: border-box !important;">
+																																															<h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #7b203e;font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;font-size: 30px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;box-sizing: border-box !important;"><span style="font-size: 30px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">QC@UCI?</span></h4>
+
+																																															<p style="color: #FFFFFF;font-size: 16px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing: border-box !important;">QC@UCI was founded&nbsp;by passionate undergraduate and graduate students from&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">various&nbsp;</strong>backgrounds. From the very beginning, we aim to connect people from&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">different fields</strong>&nbsp;and encourage everyone to&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">learn something new</strong>&nbsp;as the inherently&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">interdisciplinary</strong>&nbsp;nature of quantum computing and quantum information suggests. Moreover, we hope to stimulate the research and general interest towards this topic at UCI.</p>
+
+																																														</div>
+																																													</div>
+
+																																												</div>
+																																											</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																												<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																													<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																														<div class="mcnTextContent" style="padding: 0px 9px 9px;color: #FFFFFF;font-size: 16px;line-height: 200%;text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing: border-box !important;">
+																																															<h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #7b203e;font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;font-size: 30px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;box-sizing: border-box !important;">&nbsp;</h4>
+
+																																															<p style="color: #FFFFFF;font-size: 16px;line-height: 200%;text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing: border-box !important;"><span style="font-size: 24px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">B</span>ut how?&nbsp;We have planned 3 kinds of activities</p>
+
+																																														</div>
+																																													</div>
+
+																																												</div>
+																																											</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																												<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																													<div style="flex: 1 0 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																														<div class="mcnTextContent" style="padding: 0px 9px 9px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;box-sizing: border-box !important;">
+																																															<div style="text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;"><img data-file-id="803677" height="145" src="https://eep.io/mc-gallery/9fefbfdf86a0518a32ebcd209/images/32057325-6080-4398-8d78-e83b8ca34e1e.png" style="border: 0px;width: 150px;height: 145px;float: right;margin: 0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;outline: none;text-decoration: none;max-width: 100%;box-sizing: border-box !important;" width="150"></div>
+
+																																														</div>
+																																													</div>
+
+																																													<div style="flex: 2 0 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																														<div class="mcnTextContent" style="padding: 0px 9px 9px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;box-sizing: border-box !important;">
+																																															<h3 style="text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;box-sizing: border-box !important;"><span style="color: #ADD8E6;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Paper Discussion</span></h3>
+
+																																															<p dir="ltr" style="text-align: left;line-height: 200%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;box-sizing: border-box !important;"><br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<span style="color: #ADD8E6;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Paper discussion sessions to keep you informed with the latest advancement.</span></p>
+
+																																															</div>
+																																														</div>
+
+																																													</div>
+																																												</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																													<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																														<div style="flex: 1 0 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																															<div class="mcnTextContent" style="padding: 0px 9px 9px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;box-sizing: border-box !important;">
+																																																<div style="text-align: right;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;"><img data-file-id="803681" height="135" src="https://eep.io/mc-gallery/9fefbfdf86a0518a32ebcd209/images/0750c822-aaa4-478d-87c4-aa69f2cf727f.png" style="border: 0px;width: 150px;height: 135px;margin: 0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;outline: none;text-decoration: none;max-width: 100%;box-sizing: border-box !important;" width="150"></div>
+
+																																															</div>
+																																														</div>
+
+																																														<div style="flex: 2 0 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																															<div class="mcnTextContent" style="padding: 0px 9px 9px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;box-sizing: border-box !important;">
+																																																<h3 dir="ltr" style="text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;box-sizing: border-box !important;"><span style="color: #ADD8E6;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Presentations</span></h3>
+
+																																																<p dir="ltr" style="text-align: left;line-height: 200%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;box-sizing: border-box !important;"><br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																	<span style="color: #ADD8E6;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Presentations from students, professors and industry speakers to give you a taste of QC.</span></p>
+
+																																																</div>
+																																															</div>
+
+																																														</div>
+																																													</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																														<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																															<div style="flex: 1 0 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div class="mcnTextContent" style="padding: 0px 9px 9px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;box-sizing: border-box !important;">
+																																																	<div style="text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;"><img data-file-id="803685" height="134" src="https://eep.io/mc-gallery/9fefbfdf86a0518a32ebcd209/images/535deea4-23e5-45f9-8d9d-5b6a5b164c68.png" style="width: 150px;height: 134px;margin: 0px;float: right;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border: 0;outline: none;text-decoration: none;max-width: 100%;box-sizing: border-box !important;" width="150"></div>
+
+																																																</div>
+																																															</div>
+
+																																															<div style="flex: 2 0 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div class="mcnTextContent" style="padding: 0px 9px 9px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;box-sizing: border-box !important;">
+																																																	<h3 style="text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;box-sizing: border-box !important;"><span style="color: #ADD8E6;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Projects</span></h3>
+
+																																																	<p dir="ltr" style="text-align: left;line-height: 200%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;box-sizing: border-box !important;"><br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																		<span style="color: #ADD8E6;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Projects will be led by experienced students. Find a project of your interest or invent your own!</span></p>
+
+																																																	</div>
+																																																</div>
+
+																																															</div>
+																																														</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																															<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																																<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																	<div class="mcnTextContent" style="padding: 0px 9px 9px;color: #FFFFFF;font-size: 16px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing: border-box !important;">
+																																																		<h4 style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #7b203e;font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;font-size: 30px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;box-sizing: border-box !important;"><span style="font-size: 30px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Stay Tuned!</span></h4>
+
+																																																		<p style="color: #FFFFFF;font-size: 16px;line-height: 200%;text-align: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;box-sizing: border-box !important;">Please join our&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">slack</strong>&nbsp;workspace for more information!&nbsp;Whatever background you may have, as long as you find QC interesting, we look forward to your participation and contribution!&nbsp;<br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																			<br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																			For those with QC/QI related research experience, we have something&nbsp;<strong style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">special</strong>&nbsp;for you. Please shoot us an email to find which particle is in the box.</p>
+
+																																																		</div>
+																																																	</div>
+
+																																																</div>
+																																															</div><div class="mcnDividerBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;table-layout: fixed !important;">
+																																																<div class="mcnDividerBlockInner" style="padding: 18px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																	<div class="mcnDividerContent" style="border-top-width: 2px;border-top-style: solid;border-top-color: #EAEAEA;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;"></div>
+																																																</div>
+																																															</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																																	<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																		<div class="mcnTextContent" style="padding: 0px 9px 9px;font-family: Georgia, Times, &quot;Times New Roman&quot;, serif;font-size: 18px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;line-height: 150%;text-align: center;box-sizing: border-box !important;">
+																																																			<p style="font-family: Georgia, Times, &quot;Times New Roman&quot;, serif;font-size: 18px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;color: #ffffff;line-height: 150%;text-align: center;box-sizing: border-box !important;">From the very beginning, we aim to connect people from different fields and encourage everyone to learn something new as the inherently interdisciplinary nature of quantum computing and quantum information suggests.<br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																				<br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																				Whatever background you may have, as long as you find QC interesting, we look forward to your participation!<br style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																			&nbsp;</p>
+
+																																																		</div>
+																																																	</div>
+
+																																																</div>
+																																															</div><div class="mcnButtonBlock mcnButtonBlockInner" style="display: flex;justify-content: center;padding-top: 0;padding-right: 18px;padding-bottom: 18px;padding-left: 18px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																	<a id="0" class="mcnButtonContentContainer mcnButton " title="Join our Slack!" href="https://mc.us20.list-manage.com/pages/track/click?u=9fefbfdf86a0518a32ebcd209&amp;id=1c966ea343" target="_blank" style="font-weight: normal;letter-spacing: 1px;line-height: 100%;text-align: center;text-decoration: none;border: 2px solid #7B203E;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;background-color: #323249;box-shadow: rgba(123, 32, 62, 0.568627) 9px 9px 7px 0px;padding: 3px 23px;color: #FFFFFF;font-family: &quot;Courier New&quot;, Courier, &quot;Lucida Sans Typewriter&quot;, &quot;Lucida Typewriter&quot;, monospace;font-size: 24px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;box-sizing: border-box !important;">Join our Slack!</a>
+																																																</div>
+																																															</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																																	<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																		<div class="mcnTextContent" style="padding-top: 0;padding-right: 9px;padding-bottom: 9px;padding-left: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;line-height: 150%;text-align: center;box-sizing: border-box !important;">
+
+																																																		</div>
+																																																	</div>
+
+																																																</div>
+																																															</div><div class="mcnSignUpBlockContentContainer" style="display: flex;justify-content: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div class="mcnSignUpFormContentContainer" style="align-items: center;justify-content: center;padding-top: 18px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																	<div class="mcnTextContent" data-dojo-attach-point="formContentContainer" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;line-height: 150%;text-align: center;box-sizing: border-box !important;">
+																																																		<!-- Form Fields -->
+																																																		<div class="content__formFields" data-dojo-attach-point="formFieldsContainer" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																			<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																				<div data-dojo-type="mojo/pages-signup-forms/Loader" endpoint="https://mc.us20.list-manage.com/signup-form/settings?u=9fefbfdf86a0518a32ebcd209&id=002a72e1f0&for_preview=0"></div>
+																																																			</span>
+																																																		</div>
+
+																																																	</div>
+																																																</div>
+																																															</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																																	<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																		<div class="mcnTextContent" style="padding-top: 0;padding-right: 9px;padding-bottom: 9px;padding-left: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;line-height: 150%;text-align: center;box-sizing: border-box !important;">
+
+																																																		</div>
+																																																	</div>
+
+																																																</div>
+																																															</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																																	<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																		<div class="mcnTextContent" style="padding-top: 0;padding-right: 9px;padding-bottom: 9px;padding-left: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #ffffff;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;line-height: 150%;text-align: center;box-sizing: border-box !important;">
+
+																																																		</div>
+																																																	</div>
+
+																																																</div>
+																																															</div><div width="100%" class="mcnTextBlock" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div class="mcnTextBlockInner" style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+
+																																																	<div style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																		<div class="mcnTextContent" style="padding: 0px 9px 9px;color: #FFFFFF;font-family: &quot;Courier New&quot;, Courier, &quot;Lucida Sans Typewriter&quot;, &quot;Lucida Typewriter&quot;, monospace;font-size: 26px;font-style: normal;font-weight: normal;line-height: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;text-align: center;box-sizing: border-box !important;">
+																																																			<span style="font-size: 26px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">quantumcomputing@uci.edu</span>
+																																																		</div>
+																																																	</div>
+
+																																																</div>
+																																															</div><div class="mcnButtonBlock mcnButtonBlockInner" style="display: flex;justify-content: center;padding-top: 0;padding-right: 18px;padding-bottom: 18px;padding-left: 18px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																<div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+																																																	<a id="0" class="mcnButtonContentContainer mcnButton " title="Write us an Email!" href="mailto:quantumcomputing@uci.edu" target="_blank" style="font-weight: normal;letter-spacing: 1px;line-height: 100%;text-align: center;text-decoration: none;border: 2px solid #7B203E;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;background-color: #323249;box-shadow: rgba(123, 32, 62, 0.568627) 9px 9px 7px 0px;padding: 3px 23px;color: #FFFFFF;font-family: &quot;Courier New&quot;, Courier, &quot;Lucida Sans Typewriter&quot;, &quot;Lucida Typewriter&quot;, monospace;font-size: 24px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;box-sizing: border-box !important;">Write us an Email!</a>
+																																																</div>
+																																															</div></div>
+																																														</div>
+																																													</div>
+																																												</div>
+																																												<div data-dojo-type="mojo/widgets/pages/PaymentGalleryImages"></div><script type="text/javascript" src="https://eep.io/mc-release/1.1.184ec24688de97b0fbe489013a2b851affbbbcf38/js/mojo/mclandingpage.js" data-dojo-config="baseUrl: &quot;https://eep.io/mc-release/1.1.184ec24688de97b0fbe489013a2b851affbbbcf38/js/dojo/&quot;, parseOnLoad: true, usePlainJson: true, isDebug: false"></script><script type="text/javascript" src="https://mc.us20.list-manage.com/pages/track/open?u=9fefbfdf86a0518a32ebcd209&amp;id=0300de87e1f0" async></script></body>
+																																												</html>
